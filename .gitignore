@@ -5,6 +5,6 @@ node_modules
 
 package-lock.json
 bundle.js
-
+*.fs.js
 .fake
 .ionide
