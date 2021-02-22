@@ -36,5 +36,7 @@ mountElement "sutil-app" (view())
 ```
 
 ### What Next
-It's recommended that for any kind of "real" app that you adopt the Elmish MVU pattern. See the following Elmish template to get started with Sutil + Elmish.
+It's recommended that for any kind of "real" app that you adopt the Elmish MVU pattern.
+Template: https://github.com/davedawkins/Sutil-template-elmish
 
+(TODO!!)
