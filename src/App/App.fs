@@ -7,7 +7,7 @@ open Sutil.Attr
 let view() =
     Html.div [
         style [
-            Css.fontFamily "Arial, Helvetica,sans-serif"
+            Css.fontFamily "Arial, Helvetica, sans-serif"
             Css.textAlign "center"
             Css.marginTop "40px"
             Css.fontSize "10ex"
@@ -15,4 +15,4 @@ let view() =
         text "Hello World"
     ]
 
-mountElement "sutil-app" (view())
+view() |> mountElement "sutil-app"
