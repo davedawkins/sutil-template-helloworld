@@ -1,14 +1,13 @@
 module App
 
 open Sutil
-open Sutil.DOM
-open Sutil.Attr
+open Sutil.DomHelpers
 open Feliz
 open type Feliz.length
 
 let view() =
     Html.div [
-        style [
+        Attr.style [
             Css.fontFamily "Arial, Helvetica, sans-serif"
             Css.textAlignCenter
             Css.marginTop (px 40)
