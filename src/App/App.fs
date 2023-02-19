@@ -16,4 +16,4 @@ let view() =
         text "Hello World"
     ]
 
-view() |> Program.mountElement "sutil-app"
+view() |> Program.mount
